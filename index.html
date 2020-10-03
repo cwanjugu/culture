@@ -1,27 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Akan Names</title>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akan Names</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <h1>hello</h1>
+  <div class="caro">
+    <h1><strong>Akan Names</strong></h1>
+   </div>
     <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="jumbotron">
-              <h1>Bootstrap Practice</h1>
-              <p>Learnig how to style while integrating bootstrap</p>
-            </div> 
-          </div> 
+        <div class="jumbotron">
+            <div class="row">
+                <h1><i><strong>Hey,Find out your Akan Name</strong></i></h1>
+                <p>Akan names are derived from the Ghanian culture.<br>Children in Ghana are given their first name as a 'day name',which corresponds to the day in the week they were born.<br>Here are the Ghanian day names:</p>
+              
+                <div class="col-md-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><strong>MALE</strong></div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Sunday:Kwasi</li>
+                                <li>Monday:Kwadwo</li>
+                                <li>Tuesday:Kwabena</li>
+                                <li>Wednesday:Kwaku</li>
+                                <li>Thursday:Yaw</li>
+                                <li>Friday:Kofi</li>
+                                <li>Saturday:kwame</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><strong>FEMALE</strong></div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Sunday:Akosua</li>
+                                <li>Monday:Adwoa</li>
+                                <li>Tuesday:Abenaa</li>
+                                <li>Wednesday:Akua</li>
+                                <li>Thursday:Yaa</li>
+                                <li>Friday:Afua</li>
+                                <li>Saturday:Ama</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div> 
-
     </div>
-    
+
+    <div class="button">
+      <button><a href="https://en.wikipedia.org/wiki/Akan_names">click here:</a><br></button>
+  </div>
+<div class="container">
+    <form name="myForm">
+        <div class="form-group">
+            <label for="year">year</label>
+            <input type="number" class="form-control" placeholder="Year" id="year">
+        </div>
+        <div class="form-group">
+            <label for="Month">Month</label>
+            <input type="number" class="form-control" placeholder="Month" id="month">
+        </div>
+        <div class="form-group">
+            <label for="Day">Day</label>
+            <input type="number" class="form-control" placeholder="Day" id="day">
+        </div>
+        <div class="radio">
+            <label class="gender">
+                <input class="radio" type="radio" name="gender" id="male">Male
+                <input class="radio" type="radio" name="gender" id="female">Female
+            </label>
+        </div>
+        <button type="button" class="btn-primary" onclick="myClick()">click</button>
+        <button type="button" class="btn-primary" onclick="reset">Reset</button>
+    </form> 
 </body>
 </html>
