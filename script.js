@@ -7,27 +7,27 @@ function day (cc,yy,mm,dd){
     var day = document.getElementById("day").value;
     var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    var phil = new Date();
-    phil.setDate(parseInt(day));
-    phil.setMonth(parseInt(Month)-1);
-    phil.setFullYear(parseInt(year));
-    var p = phil.getDay();
-    if(p===0){
+    var carol = new Date();
+    carol.setDate(parseInt(day));
+    carol.setMonth(parseInt(Month)-1);
+    carol.setFullYear(parseInt(year));
+    var c = carol.getDay();
+    if(c===0){
         alert("Sunday");
-    }else if(p===1){
+    }else if(c===1){
         alert("Monday");
-    }else if(p===2){
+    }else if(c===2){
         alert("Tuesday");
-    }else if(p===3){
+    }else if(c===3){
         alert("Wednesday");
-    }else if(p===4){
+    }else if(c===4){
         alert("Thursday");
-    }else if(p===5){
+    }else if(c===5){
         alert("Friday");
-    }else if(p===6){
+    }else if(c===6){
         alert("Saturday");
     }
-    if(year==""||year>2056){
+    if(year==""||year>2030){
         alert("insert a valid year");
     }else if(Month=="" ||Month>12){
         alert("Enter a valid month");
