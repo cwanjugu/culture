@@ -25,7 +25,7 @@ function day (cc,yy,mm,dd){
     }else if(c===5){
         ("Friday");
     }else if(c===6){
-        ("Saturday");
+       alert("Saturday");
     }
     if(year==""||year>2030){
         alert("insert a valid year");
