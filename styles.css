@@ -15,10 +15,7 @@ font-size: large;
 
 body{
     background-color: skyblue;
-    /* background-image:url(/images/back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+}
 h1{
 text-align: center;
 font-family: 'Kaushan Script', cursive;
@@ -50,6 +47,6 @@ padding-right: 7px;
 padding-left: 7px;
 text-align: center;
 box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
-background-color: brown;
+background-color: teal;
 color: black;
 }
