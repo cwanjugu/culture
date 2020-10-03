@@ -32,7 +32,7 @@ function day (cc,yy,mm,dd){
     }else if(Month=="" ||Month>12){
         alert("Enter a valid month");
     }else if(day=="" ||day>31){
-        alert("Enter a valid month");
+        alert("Enter a valid date");
     }else if(document.getElementById("male").checked==true && document.getElementById("female").checked==false){
         alert("Your Akan name is " + maleName[p]);
     }else if(document.getElementById("male").checked==false && document.getElementById("female").checked==true){
