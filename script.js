@@ -13,19 +13,19 @@ function day (cc,yy,mm,dd){
     carol.setFullYear(parseInt(year));
     var c = carol.getDay();
     if(c===0){
-        alert("Sunday");
+        ("Sunday");
     }else if(c===1){
-        alert("Monday");
+        ("Monday");
     }else if(c===2){
-        alert("Tuesday");
+        ("Tuesday");
     }else if(c===3){
-        alert("Wednesday");
+        ("Wednesday");
     }else if(c===4){
-        alert("Thursday");
+        ("Thursday");
     }else if(c===5){
-        alert("Friday");
+        ("Friday");
     }else if(c===6){
-        alert("Saturday");
+        ("Saturday");
     }
     if(year==""||year>2030){
         alert("insert a valid year");
@@ -34,8 +34,8 @@ function day (cc,yy,mm,dd){
     }else if(day=="" ||day>31){
         alert("Enter a valid date");
     }else if(document.getElementById("male").checked==true && document.getElementById("female").checked==false){
-        alert("Your Akan name is " + maleName[p]);
+        alert("Your Akan name is " + maleName[c]);
     }else if(document.getElementById("male").checked==false && document.getElementById("female").checked==true){
-        alert("Your Akan name is " + femaleName[p]);
+        alert("Your Akan name is " + femaleName[c]);
     }
 }
